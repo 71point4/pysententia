@@ -26,9 +26,9 @@ def sent_word_polarity(self, **kwargs):
 
     return _sent_word_polarity(self, self.host, self.headers, params)
 
-# -------------------------------------------------------------
+# ---------------------------------------------------------------------------------
 # (sent_date_polarity) Get a count of the number of positive and negative articles.
-# -------------------------------------------------------------
+# ---------------------------------------------------------------------------------
 
 def _sent_date_polarity(self, host, headers, params):
     """Get a count of the number of positive and negative articles."""

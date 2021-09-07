@@ -7,8 +7,11 @@
 [Sententia](https://github.com/71point4/sententia) provides access to
 media sentiment data from the Bureau for Economic research.
 
-The homepage for the {sententia} python package is at
+This homepage for the {sententia} `python` package is at
 <https://github.com/71point4/pysententia>.
+
+You can find the homepage for the {sententia} `R` package is at
+<https://github.com/71point4/sententia>.
 
 ## Installation
 
