@@ -23,8 +23,6 @@ def _sent_index(self, host, headers, params):
 def sent_index(self, **kwargs):
     """Pull a specific media sentiment index method"""
     req_params      = parameters['sent_index']['req_params']
-    print(req_params)
-    print(kwargs)
     # Check params
     params = check_params(req_params, kwargs)
 
