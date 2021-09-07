@@ -67,7 +67,7 @@ dictionaries, the API interface provides access to the various
 permutations that is available in calculating a sentiment score (Within
 text and across time):
 
-<img src="_static/figures/aggregations.png" width="1236" style="display: block; margin: auto;" />
+<img src="docs/figures/figures/aggregations.png" width="1236" style="display: block; margin: auto;" />
 
 -   Sentiment calculation `WITHIN` the article
     -   In the API this is set by the `aggr` parameter
