@@ -81,9 +81,9 @@ text and across time):
 ## Usage
 
 ```python
-from pysententia import sententia
+from pysententia import Sententia
 
-sent = sententia(key = key)
+sent = Sententia(key = key)
 ```
 
 ## Sentiment Index

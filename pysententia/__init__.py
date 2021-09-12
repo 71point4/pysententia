@@ -1,6 +1,6 @@
 from pkg_resources import get_distribution
 
-class sententia(object):
+class Sententia(object):
     r"""
     Wrapper class for the Sententia API.
     Attributes
@@ -13,7 +13,7 @@ class sententia(object):
     """
     def __init__(self, key):
         r"""
-        Initialization method of the :code:`sententia` class.
+        Initialization method of the :code:`Sententia` class.
         Parameters
         ----------
         key : str
