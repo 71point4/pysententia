@@ -35,7 +35,6 @@ def _sent_date_polarity(self, host, headers, params):
 
     endpoint =  (
             f"word_polarity?source={params['source']}&"
-            f"model={params['model']}&"
             f"topic={params['topic']}&"
             f"freq={params['freq']}&"
             f"dict={params['dict']}&"

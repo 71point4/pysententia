@@ -15,31 +15,12 @@ You can find the homepage for the {sententia} `R` package is at
 
 ## Installation
 
-### Install from PyPI
-
-Install from PyPI.
-
-```bash
-pip3 install pysententia
-```
-
 ### Install from GitHub
 
 Install from GitHub.
 
 ```bash
 install git+https://github.com/71point4/pysententia
-```
-
-## Testing
-
-To run the test suite:
-
-1. Set the `SENTENTIA_KEY` environment variable.
-2. Launch the tests with
-
-```bash
-pytest
 ```
 
 ## Documentation
@@ -94,7 +75,6 @@ topic, dictionary, frequency, and aggregation method combination.
 ```python
 sent.sent_index(
    source = "businessday",
-   model = "model_2021-05-15",
    topic = "global",
    freq = "month",
    dict = "loughran",
@@ -109,7 +89,6 @@ Get a count of the number of articles for a specified media source, model, topic
 ```python
 sent.sent_counts(
    source = "all",
-   model = "model_2021-05-15",
    topic = "global",
    freq = "week"
    )
@@ -122,7 +101,6 @@ Get a count of the number of positive and negative articles for a specified mode
 ```python
 sent.sent_date_polarity(
    source = "all",
-   model = "model_2021-05-15",
    topic = "global",
    freq = "week",
    dict = "loughran",
@@ -137,7 +115,6 @@ Get the top 50 most frequently occurring positive and negative words for a speci
 ```python
 sent.sent_word_polarity(
    source = "all",
-   model = "model_2021-05-15",
    topic = "economy",
    freq = "day",
    dict = "loughran"

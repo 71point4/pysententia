@@ -9,7 +9,6 @@ def _sent_counts(self, host, headers, params):
 
     endpoint =  (
             f"counts?source={params['source']}&"
-            f"model={params['model']}&"
             f"topic={params['topic']}&"
             f"freq={params['freq']}"
     )
